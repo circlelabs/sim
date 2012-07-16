@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/eric/ros_workspace/sim/src/visualization.cpp
+/home/david/ros_workspace/sim/src/visualization.cpp
 stdio.h
 -
 ros/ros.h
@@ -14,7 +14,7 @@ ros/ros.h
 visualization_msgs/Marker.h
 -
 sim/TelemetryUpdate.h
-/home/eric/ros_workspace/sim/src/sim/TelemetryUpdate.h
+/home/david/ros_workspace/sim/src/sim/TelemetryUpdate.h
 
 /opt/ros/fuerte/include/XmlRpcDecl.h
 ros/macros.h

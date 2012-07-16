@@ -29,7 +29,7 @@ Compiled with g++.
 #define BUFFER_SPACE 36.0 //meters
 
 //output directory
-#define OUTPUT_DIRECTORY "/home/eric/ros_workspace/sim/more courses"
+#define OUTPUT_DIRECTORY "/home/david/ros_workspace/sim/more courses"
 
 //list of the number of planes to run tests on
 const int numPlanes[] = {4, 8, 16, 32};

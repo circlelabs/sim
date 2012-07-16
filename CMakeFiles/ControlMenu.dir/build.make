@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ros_workspace/sim
+CMAKE_SOURCE_DIR = /home/david/ros_workspace/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ros_workspace/sim
+CMAKE_BINARY_DIR = /home/david/ros_workspace/sim
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ControlMenu.dir/depend.make
@@ -66,17 +66,17 @@ CMakeFiles/ControlMenu.dir/src/ControlMenu.o: /opt/ros/fuerte/share/message_filt
 CMakeFiles/ControlMenu.dir/src/ControlMenu.o: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 CMakeFiles/ControlMenu.dir/src/ControlMenu.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/ControlMenu.dir/src/ControlMenu.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ControlMenu.dir/src/ControlMenu.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ControlMenu.dir/src/ControlMenu.o -c /home/eric/ros_workspace/sim/src/ControlMenu.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ControlMenu.dir/src/ControlMenu.o -c /home/david/ros_workspace/sim/src/ControlMenu.cpp
 
 CMakeFiles/ControlMenu.dir/src/ControlMenu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ControlMenu.dir/src/ControlMenu.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/eric/ros_workspace/sim/src/ControlMenu.cpp > CMakeFiles/ControlMenu.dir/src/ControlMenu.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/david/ros_workspace/sim/src/ControlMenu.cpp > CMakeFiles/ControlMenu.dir/src/ControlMenu.i
 
 CMakeFiles/ControlMenu.dir/src/ControlMenu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ControlMenu.dir/src/ControlMenu.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/eric/ros_workspace/sim/src/ControlMenu.cpp -o CMakeFiles/ControlMenu.dir/src/ControlMenu.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/david/ros_workspace/sim/src/ControlMenu.cpp -o CMakeFiles/ControlMenu.dir/src/ControlMenu.s
 
 CMakeFiles/ControlMenu.dir/src/ControlMenu.o.requires:
 .PHONY : CMakeFiles/ControlMenu.dir/src/ControlMenu.o.requires
@@ -107,17 +107,17 @@ CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o: /opt/ros/fuerte/share/message
 CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o -c /home/eric/ros_workspace/sim/src/sim/standardDefs.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o -c /home/david/ros_workspace/sim/src/sim/standardDefs.cpp
 
 CMakeFiles/ControlMenu.dir/src/sim/standardDefs.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ControlMenu.dir/src/sim/standardDefs.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/eric/ros_workspace/sim/src/sim/standardDefs.cpp > CMakeFiles/ControlMenu.dir/src/sim/standardDefs.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/david/ros_workspace/sim/src/sim/standardDefs.cpp > CMakeFiles/ControlMenu.dir/src/sim/standardDefs.i
 
 CMakeFiles/ControlMenu.dir/src/sim/standardDefs.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ControlMenu.dir/src/sim/standardDefs.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/eric/ros_workspace/sim/src/sim/standardDefs.cpp -o CMakeFiles/ControlMenu.dir/src/sim/standardDefs.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/david/ros_workspace/sim/src/sim/standardDefs.cpp -o CMakeFiles/ControlMenu.dir/src/sim/standardDefs.s
 
 CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o.requires:
 .PHONY : CMakeFiles/ControlMenu.dir/src/sim/standardDefs.o.requires
@@ -156,6 +156,6 @@ CMakeFiles/ControlMenu.dir/clean:
 .PHONY : CMakeFiles/ControlMenu.dir/clean
 
 CMakeFiles/ControlMenu.dir/depend:
-	cd /home/eric/ros_workspace/sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim/CMakeFiles/ControlMenu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/david/ros_workspace/sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim/CMakeFiles/ControlMenu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ControlMenu.dir/depend
 

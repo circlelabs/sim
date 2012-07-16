@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ros_workspace/sim
+CMAKE_SOURCE_DIR = /home/david/ros_workspace/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ros_workspace/sim
+CMAKE_BINARY_DIR = /home/david/ros_workspace/sim
 
 # Include any dependencies generated for this target.
 include CMakeFiles/coordinator.dir/depend.make
@@ -66,17 +66,17 @@ CMakeFiles/coordinator.dir/src/coordinator.o: /opt/ros/fuerte/share/message_filt
 CMakeFiles/coordinator.dir/src/coordinator.o: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 CMakeFiles/coordinator.dir/src/coordinator.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/coordinator.dir/src/coordinator.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/coordinator.dir/src/coordinator.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/coordinator.dir/src/coordinator.o -c /home/eric/ros_workspace/sim/src/coordinator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/coordinator.dir/src/coordinator.o -c /home/david/ros_workspace/sim/src/coordinator.cpp
 
 CMakeFiles/coordinator.dir/src/coordinator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coordinator.dir/src/coordinator.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/eric/ros_workspace/sim/src/coordinator.cpp > CMakeFiles/coordinator.dir/src/coordinator.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/david/ros_workspace/sim/src/coordinator.cpp > CMakeFiles/coordinator.dir/src/coordinator.i
 
 CMakeFiles/coordinator.dir/src/coordinator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coordinator.dir/src/coordinator.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/eric/ros_workspace/sim/src/coordinator.cpp -o CMakeFiles/coordinator.dir/src/coordinator.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/david/ros_workspace/sim/src/coordinator.cpp -o CMakeFiles/coordinator.dir/src/coordinator.s
 
 CMakeFiles/coordinator.dir/src/coordinator.o.requires:
 .PHONY : CMakeFiles/coordinator.dir/src/coordinator.o.requires
@@ -107,17 +107,17 @@ CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o: /opt/ros/fuerte/share/mes
 CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o -c /home/eric/ros_workspace/sim/src/sim/PlaneCoordinator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o -c /home/david/ros_workspace/sim/src/sim/PlaneCoordinator.cpp
 
 CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/eric/ros_workspace/sim/src/sim/PlaneCoordinator.cpp > CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/david/ros_workspace/sim/src/sim/PlaneCoordinator.cpp > CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.i
 
 CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/eric/ros_workspace/sim/src/sim/PlaneCoordinator.cpp -o CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/david/ros_workspace/sim/src/sim/PlaneCoordinator.cpp -o CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.s
 
 CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o.requires:
 .PHONY : CMakeFiles/coordinator.dir/src/sim/PlaneCoordinator.o.requires
@@ -148,17 +148,17 @@ CMakeFiles/coordinator.dir/src/sim/standardDefs.o: /opt/ros/fuerte/share/message
 CMakeFiles/coordinator.dir/src/sim/standardDefs.o: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 CMakeFiles/coordinator.dir/src/sim/standardDefs.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/coordinator.dir/src/sim/standardDefs.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/coordinator.dir/src/sim/standardDefs.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/coordinator.dir/src/sim/standardDefs.o -c /home/eric/ros_workspace/sim/src/sim/standardDefs.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/coordinator.dir/src/sim/standardDefs.o -c /home/david/ros_workspace/sim/src/sim/standardDefs.cpp
 
 CMakeFiles/coordinator.dir/src/sim/standardDefs.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coordinator.dir/src/sim/standardDefs.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/eric/ros_workspace/sim/src/sim/standardDefs.cpp > CMakeFiles/coordinator.dir/src/sim/standardDefs.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/david/ros_workspace/sim/src/sim/standardDefs.cpp > CMakeFiles/coordinator.dir/src/sim/standardDefs.i
 
 CMakeFiles/coordinator.dir/src/sim/standardDefs.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coordinator.dir/src/sim/standardDefs.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/eric/ros_workspace/sim/src/sim/standardDefs.cpp -o CMakeFiles/coordinator.dir/src/sim/standardDefs.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/david/ros_workspace/sim/src/sim/standardDefs.cpp -o CMakeFiles/coordinator.dir/src/sim/standardDefs.s
 
 CMakeFiles/coordinator.dir/src/sim/standardDefs.o.requires:
 .PHONY : CMakeFiles/coordinator.dir/src/sim/standardDefs.o.requires
@@ -200,6 +200,6 @@ CMakeFiles/coordinator.dir/clean:
 .PHONY : CMakeFiles/coordinator.dir/clean
 
 CMakeFiles/coordinator.dir/depend:
-	cd /home/eric/ros_workspace/sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim/CMakeFiles/coordinator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/david/ros_workspace/sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim/CMakeFiles/coordinator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/coordinator.dir/depend
 

@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ros_workspace/sim
+CMAKE_SOURCE_DIR = /home/david/ros_workspace/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ros_workspace/sim
+CMAKE_BINARY_DIR = /home/david/ros_workspace/sim
 
 # Utility rule file for ROSBUILD_gensrv_py.
 
@@ -44,167 +44,17 @@ include CMakeFiles/ROSBUILD_gensrv_py.dir/progress.make
 
 CMakeFiles/ROSBUILD_gensrv_py: src/sim/srv/__init__.py
 
-src/sim/srv/__init__.py: src/sim/srv/_SaveFlightData.py
-src/sim/srv/__init__.py: src/sim/srv/_RequestWaypointInfo.py
-src/sim/srv/__init__.py: src/sim/srv/_CreateSimulatedPlane.py
-src/sim/srv/__init__.py: src/sim/srv/_GoToWaypoint.py
-src/sim/srv/__init__.py: src/sim/srv/_DeleteSimulatedPlane.py
-src/sim/srv/__init__.py: src/sim/srv/_RequestPlaneID.py
 src/sim/srv/__init__.py: src/sim/srv/_LoadPath.py
+src/sim/srv/__init__.py: src/sim/srv/_RequestPlaneID.py
+src/sim/srv/__init__.py: src/sim/srv/_RequestWaypointInfo.py
 src/sim/srv/__init__.py: src/sim/srv/_LoadCourse.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_1)
+src/sim/srv/__init__.py: src/sim/srv/_DeleteSimulatedPlane.py
+src/sim/srv/__init__.py: src/sim/srv/_SaveFlightData.py
+src/sim/srv/__init__.py: src/sim/srv/_GoToWaypoint.py
+src/sim/srv/__init__.py: src/sim/srv/_CreateSimulatedPlane.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/__init__.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/eric/ros_workspace/sim/srv/SaveFlightData.srv /home/eric/ros_workspace/sim/srv/RequestWaypointInfo.srv /home/eric/ros_workspace/sim/srv/CreateSimulatedPlane.srv /home/eric/ros_workspace/sim/srv/GoToWaypoint.srv /home/eric/ros_workspace/sim/srv/DeleteSimulatedPlane.srv /home/eric/ros_workspace/sim/srv/RequestPlaneID.srv /home/eric/ros_workspace/sim/srv/LoadPath.srv /home/eric/ros_workspace/sim/srv/LoadCourse.srv
-
-src/sim/srv/_SaveFlightData.py: srv/SaveFlightData.srv
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roslib/bin/gendeps
-src/sim/srv/_SaveFlightData.py: manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roslang/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roscpp/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rospy/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roslib/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rostest/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roswtf/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/message_filters/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
-src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_SaveFlightData.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/SaveFlightData.srv
-
-src/sim/srv/_RequestWaypointInfo.py: srv/RequestWaypointInfo.srv
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roslib/bin/gendeps
-src/sim/srv/_RequestWaypointInfo.py: manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roslang/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roscpp/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rospy/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roslib/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rostest/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roswtf/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/message_filters/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
-src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_RequestWaypointInfo.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/RequestWaypointInfo.srv
-
-src/sim/srv/_CreateSimulatedPlane.py: srv/CreateSimulatedPlane.srv
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roslib/bin/gendeps
-src/sim/srv/_CreateSimulatedPlane.py: manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roslang/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roscpp/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rospy/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roslib/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rostest/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roswtf/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/message_filters/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
-src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_CreateSimulatedPlane.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/CreateSimulatedPlane.srv
-
-src/sim/srv/_GoToWaypoint.py: srv/GoToWaypoint.srv
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roslib/bin/gendeps
-src/sim/srv/_GoToWaypoint.py: manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roslang/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roscpp/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rospy/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roslib/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rostest/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roswtf/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/message_filters/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
-src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_GoToWaypoint.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/GoToWaypoint.srv
-
-src/sim/srv/_DeleteSimulatedPlane.py: srv/DeleteSimulatedPlane.srv
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roslib/bin/gendeps
-src/sim/srv/_DeleteSimulatedPlane.py: manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roslang/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roscpp/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rospy/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roslib/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rostest/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roswtf/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/message_filters/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
-src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_DeleteSimulatedPlane.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/DeleteSimulatedPlane.srv
-
-src/sim/srv/_RequestPlaneID.py: srv/RequestPlaneID.srv
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roslib/bin/gendeps
-src/sim/srv/_RequestPlaneID.py: manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roslang/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roscpp/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rospy/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roslib/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rostest/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roswtf/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/message_filters/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
-src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_RequestPlaneID.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/RequestPlaneID.srv
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/david/ros_workspace/sim/srv/LoadPath.srv /home/david/ros_workspace/sim/srv/RequestPlaneID.srv /home/david/ros_workspace/sim/srv/RequestWaypointInfo.srv /home/david/ros_workspace/sim/srv/LoadCourse.srv /home/david/ros_workspace/sim/srv/DeleteSimulatedPlane.srv /home/david/ros_workspace/sim/srv/SaveFlightData.srv /home/david/ros_workspace/sim/srv/GoToWaypoint.srv /home/david/ros_workspace/sim/srv/CreateSimulatedPlane.srv
 
 src/sim/srv/_LoadPath.py: srv/LoadPath.srv
 src/sim/srv/_LoadPath.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -227,9 +77,59 @@ src/sim/srv/_LoadPath.py: /opt/ros/fuerte/share/message_filters/manifest.xml
 src/sim/srv/_LoadPath.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 src/sim/srv/_LoadPath.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 src/sim/srv/_LoadPath.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_LoadPath.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/LoadPath.srv
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/LoadPath.srv
+
+src/sim/srv/_RequestPlaneID.py: srv/RequestPlaneID.srv
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roslib/bin/gendeps
+src/sim/srv/_RequestPlaneID.py: manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roslang/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roscpp/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rospy/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roslib/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/rostest/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/roswtf/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/share/message_filters/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
+src/sim/srv/_RequestPlaneID.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_RequestPlaneID.py"
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/RequestPlaneID.srv
+
+src/sim/srv/_RequestWaypointInfo.py: srv/RequestWaypointInfo.srv
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roslib/bin/gendeps
+src/sim/srv/_RequestWaypointInfo.py: manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roslang/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roscpp/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rospy/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roslib/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/rostest/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/roswtf/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/share/message_filters/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
+src/sim/srv/_RequestWaypointInfo.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_RequestWaypointInfo.py"
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/RequestWaypointInfo.srv
 
 src/sim/srv/_LoadCourse.py: srv/LoadCourse.srv
 src/sim/srv/_LoadCourse.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -252,20 +152,120 @@ src/sim/srv/_LoadCourse.py: /opt/ros/fuerte/share/message_filters/manifest.xml
 src/sim/srv/_LoadCourse.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
 src/sim/srv/_LoadCourse.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 src/sim/srv/_LoadCourse.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/eric/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_LoadCourse.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/eric/ros_workspace/sim/srv/LoadCourse.srv
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/LoadCourse.srv
+
+src/sim/srv/_DeleteSimulatedPlane.py: srv/DeleteSimulatedPlane.srv
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roslib/bin/gendeps
+src/sim/srv/_DeleteSimulatedPlane.py: manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roslang/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roscpp/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rospy/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roslib/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/rostest/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/roswtf/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/share/message_filters/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
+src/sim/srv/_DeleteSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_DeleteSimulatedPlane.py"
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/DeleteSimulatedPlane.srv
+
+src/sim/srv/_SaveFlightData.py: srv/SaveFlightData.srv
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roslib/bin/gendeps
+src/sim/srv/_SaveFlightData.py: manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roslang/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roscpp/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rospy/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roslib/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/rostest/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/roswtf/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/share/message_filters/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
+src/sim/srv/_SaveFlightData.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_SaveFlightData.py"
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/SaveFlightData.srv
+
+src/sim/srv/_GoToWaypoint.py: srv/GoToWaypoint.srv
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roslib/bin/gendeps
+src/sim/srv/_GoToWaypoint.py: manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roslang/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roscpp/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rospy/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roslib/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/rostest/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/roswtf/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/share/message_filters/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
+src/sim/srv/_GoToWaypoint.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_GoToWaypoint.py"
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/GoToWaypoint.srv
+
+src/sim/srv/_CreateSimulatedPlane.py: srv/CreateSimulatedPlane.srv
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roslib/bin/gendeps
+src/sim/srv/_CreateSimulatedPlane.py: manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/std_msgs/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roslang/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roscpp/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rospy/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roslib/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/visualization_msgs/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/bullet/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rosconsole/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/angles/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/rostest/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/roswtf/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/share/message_filters/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/manifest.xml
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
+src/sim/srv/_CreateSimulatedPlane.py: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/david/ros_workspace/sim/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/sim/srv/_CreateSimulatedPlane.py"
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/david/ros_workspace/sim/srv/CreateSimulatedPlane.srv
 
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py
 ROSBUILD_gensrv_py: src/sim/srv/__init__.py
-ROSBUILD_gensrv_py: src/sim/srv/_SaveFlightData.py
-ROSBUILD_gensrv_py: src/sim/srv/_RequestWaypointInfo.py
-ROSBUILD_gensrv_py: src/sim/srv/_CreateSimulatedPlane.py
-ROSBUILD_gensrv_py: src/sim/srv/_GoToWaypoint.py
-ROSBUILD_gensrv_py: src/sim/srv/_DeleteSimulatedPlane.py
-ROSBUILD_gensrv_py: src/sim/srv/_RequestPlaneID.py
 ROSBUILD_gensrv_py: src/sim/srv/_LoadPath.py
+ROSBUILD_gensrv_py: src/sim/srv/_RequestPlaneID.py
+ROSBUILD_gensrv_py: src/sim/srv/_RequestWaypointInfo.py
 ROSBUILD_gensrv_py: src/sim/srv/_LoadCourse.py
+ROSBUILD_gensrv_py: src/sim/srv/_DeleteSimulatedPlane.py
+ROSBUILD_gensrv_py: src/sim/srv/_SaveFlightData.py
+ROSBUILD_gensrv_py: src/sim/srv/_GoToWaypoint.py
+ROSBUILD_gensrv_py: src/sim/srv/_CreateSimulatedPlane.py
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py.dir/build.make
 .PHONY : ROSBUILD_gensrv_py
 
@@ -278,6 +278,6 @@ CMakeFiles/ROSBUILD_gensrv_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_py.dir/depend:
-	cd /home/eric/ros_workspace/sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim /home/eric/ros_workspace/sim/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/david/ros_workspace/sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim /home/david/ros_workspace/sim/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/depend
 

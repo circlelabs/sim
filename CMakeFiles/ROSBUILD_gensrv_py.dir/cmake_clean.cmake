@@ -7,14 +7,14 @@ FILE(REMOVE_RECURSE
   "srv_gen"
   "CMakeFiles/ROSBUILD_gensrv_py"
   "src/sim/srv/__init__.py"
-  "src/sim/srv/_SaveFlightData.py"
-  "src/sim/srv/_RequestWaypointInfo.py"
-  "src/sim/srv/_CreateSimulatedPlane.py"
-  "src/sim/srv/_GoToWaypoint.py"
-  "src/sim/srv/_DeleteSimulatedPlane.py"
-  "src/sim/srv/_RequestPlaneID.py"
   "src/sim/srv/_LoadPath.py"
+  "src/sim/srv/_RequestPlaneID.py"
+  "src/sim/srv/_RequestWaypointInfo.py"
   "src/sim/srv/_LoadCourse.py"
+  "src/sim/srv/_DeleteSimulatedPlane.py"
+  "src/sim/srv/_SaveFlightData.py"
+  "src/sim/srv/_GoToWaypoint.py"
+  "src/sim/srv/_CreateSimulatedPlane.py"
 )
 
 # Per-language clean rules from dependency scanning.
